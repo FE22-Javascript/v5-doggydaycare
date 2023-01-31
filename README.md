@@ -14,5 +14,7 @@ Figmalänk: https://www.figma.com/file/rGB9ihkhMsmUGP5uYaeSDq/Doggy-Daycare?node
 ## API
 Alternativ onlineurl to JSON data
 ```
+https://majazocom.github.io/Data/dogs.json
+
 https://doggydaycare.zocom.workers.dev/dogs
 ```
