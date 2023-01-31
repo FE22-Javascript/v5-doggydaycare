@@ -4,7 +4,6 @@
 Du ska bygga en WebbApp för Doggy Daycare som hjälper dem hålla koll på hundar.
 
 ## Funktionalitet
-Appen ska ha minst 3st [routes](https://router.vuejs.org).
 
 * **Trevlig välkomstsida** där man hälsas välkommen
 * **Register** där samtliga kunder som registrerats finns med ( dogs.json )
