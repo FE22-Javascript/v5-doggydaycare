@@ -29,7 +29,7 @@ async function getDoggies() {
         nameSexAgeWrapper.appendChild(nameSexWrapper);
         // namn
         let nameEl = document.createElement('h2');
-        nameEl.innerHTML = dog.name;
+        nameEl.innerHTML = dog.name.toUpperCase();
         // kön
         let sexEl = document.createElement('img');
         // kolla könet på hunden för att se vilken symbol den skall ha
@@ -47,7 +47,7 @@ async function getDoggies() {
         nameSexWrapper.appendChild(nameEl);
         nameSexWrapper.appendChild(sexEl);
         nameSexAgeWrapper.appendChild(ageEl);
-        // lägga in allt vi skapat i js i vår html:
+        // lägga in allt vi skapat i vår stora container i js i vår html:
         dogsContainer.appendChild(article);
     });
 };
